@@ -1,62 +1,29 @@
 <!doctype html>
-<html lang="ru" ng-app="designApp">
-
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Design 2020</title>
+  <title>Design 2019</title>
+  <base href="https://viska97.github.io/design2019/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">
-  <link rel="stylesheet" href="style.css" />
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-
-<body ng-controller="AppController">
-
-  <md-toolbar layout="row" class="md-toolbar-tools">
-    <md-button class="menu md-icon-button" hide-gt-xs ng-click="toggle()" aria-label="Show User List">
-      <md-icon md-font-set="md">menu</md-icon>
-    </md-button>
-    <h1 flex md-truncate><b>Design 2020</b></h1>
-    <div hide-xs>
-      <md-button ng-href="#!/topics">Главная</md-button>
-      <md-button ng-href="#!/about">О сайте</md-button>
-    </div>
-  </md-toolbar>
-
-  <div flex layout="row">
-
-    <md-sidenav class="md-sidenav-left md-whiteframe-4dp" md-component-id="drawer" ng-click="toggle()">
-      <div layout="column">
-        <md-button ng-href="#!/topics">Главная</md-button>
-        <md-button ng-href="#!/about">О сайте</md-button>
-      </div>
-    </md-sidenav>
-
-    <md-content flex id="content">
-      <div ng-view></div>
-    </md-content>
-
-  </div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-animate.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-aria.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-route.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-resource.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.js"></script>
-
-  <script src="app/app.module.js"></script>
-  <script src="app/app.config.js"></script>
-  <script src="app/app.component.js"></script>
-  <script src="app/model/topic.service.js"></script>
-  <script src="app/about/about.component.js"></script>
-  <script src="app/topic-list/topic-list.component.js"></script>
-  <script src="app/topic-detail/topic-detail.component.js"></script>
-  <script src="app/text/text.component.js"></script>
-  <script src="app/image/image.component.js"></script>
-  <script src="app/list/list.component.js"></script>
-
-</body>
-
+<link rel="stylesheet" href="styles.42a84974d307a3150024.css"></head>
+<body>
+  <!-- Github Pages hack to allow SPA refresh without receiving 404. -->
+  <script>
+      (function () {
+        // Retrieve the URL the user was trying to access when receiving the 404.
+        var redirect = sessionStorage.redirect;
+        // Remove the URL from sessionStorage.
+        delete sessionStorage.redirect;
+        // Check if we actually need to redirect.
+        if (redirect && redirect != location.href) {
+          // We need to redirect to the URL the user was trying to access.
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+  <!-- /Github Pages hack. -->
+  <app-root></app-root>
+<script type="text/javascript" src="runtime.a5dd35324ddfd942bef1.js"></script><script type="text/javascript" src="es2015-polyfills.4a4cfea0ce682043f4e9.js" nomodule></script><script type="text/javascript" src="polyfills.407a467dedb63cfdd103.js"></script><script type="text/javascript" src="main.4c019609882bc30688ff.js"></script></body>
 </html>
