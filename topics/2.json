@@ -1,6 +1,138 @@
 {
-    "title": "UML Class",
+    "title": "UML Use Case",
     "items": [
-        
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "1. Идентификатор прецедента",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Сформировать отчетность"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "2. Название прецедента",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Описание прецедента формирования отчетности"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "3. Контекст",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Дисциплина Проектирование информационных систем"
+                }
+            ]
+        },
+         {
+            "type": "text",
+            "data": [
+                {
+                    "text": "4. Участники (actors) и цели (goals)",
+                    "class": "md-title"
+                }
+            ]
+        },
+               {
+            "type": "image",
+            "data": "https://github.com/Stankin-Kukanova/design2.github.io-kukfanova-page/blob/master/img/Участники%20и%20цели.PNG?raw=true"
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "5. Предусловия (pre-conditions)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{
+                    "text": "выбрана необходимая отчетность"
+                }],
+                [{
+                    "text": "изучены данные для построения отчетности"
+                }],
+                [{
+                    "text": "подготовлены макеты для построения отчетности"
+                }]
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "6. Постусловия (post-conditions)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{
+                    "text": "сформирована необходимая отчетность"
+                }],
+                [{
+                    "text": "готова отчетность для сдачи"
+                }]
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "7. Основной поток",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "image",
+            "data": "https://github.com/Stankin-Kukanova/design2.github.io-kukfanova-page/blob/master/img/Основной%20поток1.PNG?raw=true" 
+        },
+       {
+            "type": "text",
+            "data": [
+                {
+                    "text": "8. UML-диаграмма",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "image",
+            "data": "https://github.com/Stankin-Kukanova/design2.github.io-kukfanova-page/blob/master/img/UML-диаграмма.PNG?raw=true" 
+        }
     ]
 }
