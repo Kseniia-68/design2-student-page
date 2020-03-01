@@ -5,7 +5,7 @@
             "type": "text",
             "data": [
                 {
-                    "text": "Разработка диаграммы",
+                    "text": "1. Идентификатор прецедента",
                     "class": "md-title"
                 }
             ]
@@ -14,11 +14,7 @@
             "type": "text",
             "data": [
                 {
-                    "text": "Диаграмма создана с помощью "
-                },
-                {
-                    "text": "PlantUML",
-                    "link": "https://plantuml.com"
+                    "text": "Сформировать отчетность"
                 }
             ]
         },
@@ -26,19 +22,54 @@
             "type": "text",
             "data": [
                 {
-                    "text": "PlantUML is used to draw UML diagrams, using a simple and human readable text description. Be careful, because it does not prevent you from drawing inconsistent diagrams (such as having two classes inheriting from each other, for example). So it's more a drawing tool than a modeling tool."
+                    "text": "2. Название прецедента",
+                    "class": "md-title"
                 }
             ]
         },
         {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Описание прецедента формирования отчетности"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "3. Контекст",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Дисциплина Проектирование информационных систем"
+                }
+            ]
+        },
+         {
+            "type": "text",
+            "data": [
+                {
+                    "text": "4. Участники (actors) и цели (goals)",
+                    "class": "md-title"
+                }
+            ]
+        },
+               {
             "type": "image",
-            "data": "img/use-case-diagram.png"
+            "data": "https://github.com/Stankin-Kukanova/design2.github.io-kukfanova-page/blob/master/img/Участники%20и%20цели.PNG?raw=true"
         },
         {
             "type": "text",
             "data": [
                 {
-                    "text": "Постусловия",
+                    "text": "5. Предусловия (pre-conditions)",
                     "class": "md-title"
                 }
             ]
@@ -47,15 +78,61 @@
             "type": "list",
             "data": [
                 [{
-                    "text": "сформирована личная страница с использованием HTML, CSS, JS"
+                    "text": "выбрана необходимая отчетность"
                 }],
                 [{
-                    "text": "на личной странице зарезервированы места для описания результатов всех следующих лабораторных работ"
+                    "text": "изучены данные для построения отчетности"
                 }],
                 [{
-                    "text": "ссылка на личную страницу записана в списке группы"
+                    "text": "подготовлены макеты для построения отчетности"
                 }]
             ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "6. Постусловия (post-conditions)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{
+                    "text": "сформирована необходимая отчетность"
+                }],
+                [{
+                    "text": "готова отчетность для сдачи"
+                }]
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "7. Основной поток",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "image",
+            "data": "https://github.com/Stankin-Kukanova/design2.github.io-kukfanova-page/blob/master/img/Основной%20поток1.PNG?raw=true" 
+        },
+       {
+            "type": "text",
+            "data": [
+                {
+                    "text": "8. UML-диаграмма",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "image",
+            "data": "https://github.com/Stankin-Kukanova/design2.github.io-kukfanova-page/blob/master/img/UML-диаграмма.PNG?raw=true" 
         }
     ]
 }
