@@ -1,14 +1,44 @@
 [
     {
         "id": 1,
-        "title": "UML Use Case",
-        "description": "Диаграмма прецедента",
-        "preview": "img/use-case-diagram.png"
+        "title": "Лаботраторная работа №1",
+        "description": "Разметка личной страницы, разаработка UML диаграммы прецедентов",
+        "preview": "img/картинка.PNG"
     },
     {
         "id": 2,
-        "title": "UML Class",
-        "description": "Диаграмма классов",
-        "preview": "img/class-diagram.png"
+        "title": "Лаботраторная работа №2",
+        "description": "Заполнение личной страницы, разработка UML Class",
+        "preview": "img/картинка.PNG"
+    },
+    {
+        "id": 3,
+        "title": "Лаботраторная работа №3",
+        "description": "Реализация мини приложения SPA, разработка UML Sequence",
+        "preview": "img/картинка.PNG"
+    },
+        {
+        "id": 4,
+        "title": "Лаботраторная работа №4",
+        "description": "Реализация приложения на Angular 7, разработка UML Component",
+        "preview": "img/картинка.PNG"
+    },
+        {
+        "id": 5,
+        "title": "Лаботраторная работа №5",
+        "description": "Разработка алгоритма и описания процедуры в выбранном проекте",
+        "preview": "img/картинка.PNG"
+    },
+        {
+        "id": 6,
+        "title": "Лаботраторная работа №6",
+        "description": "Разработка процедуры на JS в выбранном проекте",
+        "preview": "img/картинка.PNG"
+    },
+        {
+        "id": 7,
+        "title": "Лаботраторная работа №7",
+        "description": "Разработка unit-теста процедуры в выбранном проекте",
+        "preview": "img/картинка.PNG"
     }
 ]
