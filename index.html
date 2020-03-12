@@ -2,47 +2,58 @@
 <html lang="ru" ng-app="designApp">
 
 <head>
-  <script type="text/javascript">
-  function lifeSite() {
-    var start = new Date('March 1, 2020'); // Дата создания сайта
-    var end = new Date();
-    var life = Math.round((end.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
-    var suffix = new Array("день", "дня", "дней");
-    var keys = [2, 0, 1, 1, 1, 2];
-    var mod = life % 100;
-    var suffix_key = mod > 4 && mod < 20 ? 2 : keys[Math.min(mod%10, 5)];
-    document.getElementById("life_site").innerHTML = life + " " + suffix[suffix_key];
-  }
-</script>
   <meta charset="utf-8">
-  <title>!Моя страничка!</title>
+  <title>AKonsulova</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">
   <link rel="stylesheet" href="style.css" />
-
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script>	
+function clock(){
+ var date = new Date(),
+ day = (date.getDate() < 10) ? '0' + date.getDate() : date.getDate(),
+ month = (date.getMonth() < 10) ? ('0' + (date.getMonth() + 1)) : (date.getMonth() + 1),
+ year = date.getFullYear(),
+ hours = (date.getHours() < 10) ? '0' + date.getHours() : date.getHours(),
+ minutes = (date.getMinutes() < 10) ? '0' + date.getMinutes() : date.getMinutes(),
+ seconds = (date.getSeconds() < 10) ? '0' + date.getSeconds() : date.getSeconds();
+ document.getElementById('clock').innerHTML = day + '.' + month + '.' + year + ' ' + hours + ':' + minutes + ':' + seconds;
+}
+setInterval(clock, 1000);
+clock();
+</script>
+  
 </head>
 
-<body ng-controller="AppController" onload="lifeSite()">
-  <p style="text-align: right;">Этот сайт существует уже:
-    <span id="life_site" style="font-size: 120%; font-weight: bold;"></span>
-  </p>
+<body ng-controller="AppController">
 
   <md-toolbar layout="row" class="md-toolbar-tools">
     <md-button class="menu md-icon-button" hide-gt-xs ng-click="toggle()" aria-label="Show User List">
       <md-icon md-font-set="md">menu</md-icon>
     </md-button>
-    <h1 flex md-truncate><b>Проектирование информационных систем</b></h1>
+    <h1 flex md-truncate><b>AKonsulova</b></h1>
+    <div hide-xs>
+    <div id="clock"></div>
+      <md-button ng-href="#!/topics">Главная</md-button>
+      <md-button ng-href="#!/about">О странице</md-button>
+    </div>
   </md-toolbar>
 
-  <div flex layout="column">
-    <div layout="column" flex>
-      <md-button ng-href="#!/topics">Лабораторные работы</md-button>
-      <md-button ng-href="#!/about">О себе</md-button>
-    </div>
+  <div flex layout="row">
+
+    <md-sidenav class="md-sidenav-left md-whiteframe-4dp" md-component-id="drawer" ng-click="toggle()">
+      <div layout="column">
+        <md-button ng-href="#!/topics">Главная</md-button>
+        <md-button ng-href="#!/about">О странице</md-button>
+      </div>
+    </md-sidenav>
+
     <md-content flex id="content">
       <div ng-view></div>
     </md-content>
+
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
