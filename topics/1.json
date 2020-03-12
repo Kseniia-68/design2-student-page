@@ -1,5 +1,5 @@
 {
-    "title": "Лабораторная работа №1. Разметка личной страницы, разработка UML диаграммы прецедентов.",
+    "title": "UML Use Case",
     "items": [
         {
             "type": "text",
@@ -14,11 +14,11 @@
             "type": "text",
             "data": [
                 {
-                    "text": "Мобильное приложение, позволяющее тестировать и документировать веб-сервисы"
+                    "text": "Продвижение продукта/услуги в интернете"
                 }
             ]
         },
-                {
+        {
             "type": "text",
             "data": [
                 {
@@ -31,15 +31,15 @@
             "type": "text",
             "data": [
                 {
-                    "text": "Мобильное приложение для тестирования и документирования RESTful API"
+                    "text": "Описание прецедента продвижения товара/услуги в интернете"
                 }
             ]
         },
-                {
+        {
             "type": "text",
             "data": [
                 {
-                    "text": "3.  Контекст",
+                    "text": "3. Контекст",
                     "class": "md-title"
                 }
             ]
@@ -48,7 +48,7 @@
             "type": "text",
             "data": [
                 {
-                    "text": "Разработка мобильного приложения"
+                    "text": "Дисциплина Проектирование информационных систем"
                 }
             ]
         },
@@ -61,15 +61,15 @@
                 }
             ]
         },
-        {
+         {
             "type": "image",
-            "data": "https://github.com/Ernest0-Production/ernest0/blob/master/img/actors.png?raw=true.png?raw=true"
+            "data": "https://github.com/AnnKons/design2-student-page/blob/master/img/goals1.jpg?raw=true" 
         },
         {
             "type": "text",
             "data": [
                 {
-                    "text": "5. Предусловия",
+                    "text": "5. Предусловия (pre-conditions)",
                     "class": "md-title"
                 }
             ]
@@ -78,19 +78,13 @@
             "type": "list",
             "data": [
                 [{
-                    "text": "Заказчик сформировал свою идею и подготовил требования"
+                    "text": "Принято решение о продвижении продукта/услуги в социальной сети Вконтакте"
                 }],
                 [{
-                    "text": "Проектный менеджер согласовал с заказчиком финальные макеты"
+                    "text": "Выделен бюджет на продвижение продукта/услуги"
                 }],
                 [{
-                    "text": "Разработчик имеет необходимый уровень подготовки для работы над проектом"
-                }],
-                [{
-                    "text": "Система управления проектами установлена на ПК всех основных участников"
-                }],
-                [{
-                    "text": "Основные участники ознакомлены с функционалом системы"
+                    "text": "Изучена технология продвижения продукта/услуги"
                 }]
             ]
         },
@@ -98,7 +92,7 @@
             "type": "text",
             "data": [
                 {
-                    "text": "6. Постусловия",
+                    "text": "6. Постусловия (post-conditions)",
                     "class": "md-title"
                 }
             ]
@@ -107,17 +101,20 @@
             "type": "list",
             "data": [
                 [{
-                    "text": "Приложение разработано в срок"
+                    "text": "Сформировано сообщество в социальной сети Вкнотакте"
                 }],
                 [{
-                    "text": "Ресурсы не превышены"
+                    "text": "Готов контент для продвижения продукта/услуги"
                 }],
                 [{
-                    "text": "Заказчик доволен"
+                    "text": "Распределен бюджет на каждый этап"
+                }],
+                [{
+                    "text": "Сформирована стратегия продвижения продукта/услуги"
                 }]
             ]
         },
-        {
+         {
             "type": "text",
             "data": [
                 {
@@ -126,62 +123,22 @@
                 }
             ]
         },
-                {
+        {
             "type": "image",
-            "data": "https://github.com/Ernest0-Production/ernest0/blob/master/img/mainFlow.png?raw=true"
+            "data": "https://github.com/AnnKons/design2-student-page/blob/master/img/Actions.jpg?raw=true" 
         },
-        {
+       {
             "type": "text",
             "data": [
                 {
-                    "text": "8. Исключения",
-                    "class": "md-title"
-                }
-            ]
-        },
-               {
-            "type": "list",
-            "data": [
-                [{
-                    "text": "Разработчик не выполнил работу в срок"
-                }],
-                [{
-                    "text": "Заказчик отменил требования, расторгнул договор "
-                }]
-            ]
-        },
-        {
-            "type": "text",
-            "data": [
-                {
-                    "text": "9. Альтернативы",
+                    "text": "8. UML-диаграмма",
                     "class": "md-title"
                 }
             ]
         },
         {
-            "type": "list",
-            "data": [
-              [{
-                  "text": "Обновились макеты"
-              }],
-              [{
-                  "text": "Заказчик запросил доработки"
-              }]
-            ]
-        },
-        {
             "type": "image",
-            "data":"https://github.com/Ernest0-Production/ernest0/blob/master/img/uml.png?raw=true"
-        },
-        {
-            "type": "text",
-            "data": [
-                {
-                    "text": "Текст диаграммы",
-                    "link": "https://github.com/Ernest0-Production/ernest0/blob/master/topics/uml.txt"
-                }
-                ]
+            "data": "https://github.com/AnnKons/design2-student-page/blob/master/img/UML3.jpg?raw=true" 
         }
     ]
 }
