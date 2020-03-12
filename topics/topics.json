@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "title": "Лаботраторная работа №1",
-        "description": "Разметка личной страницы, разаработка UML диаграммы прецедентов",
-        "preview": "img/картинка.PNG"
+        "title": "Лабораторная работа 1",
+        "description": "Разработка UML Use Case",
+        "preview": "img/use-case-diagram.png"
     },
     {
         "id": 2,
-        "title": "Лаботраторная работа №2",
-        "description": "Заполнение личной страницы, разработка UML Class",
-        "preview": "img/картинка.PNG"
+        "title": "Лабораторная работа 2",
+        "description": "Разработка UML Class",
+        "preview": "img/use-case-diagram.png"
     },
     {
         "id": 3,
-        "title": "Лаботраторная работа №3",
-        "description": "Реализация мини приложения SPA, разработка UML Sequence",
-        "preview": "img/картинка.PNG"
+        "title": "Лабораторная работа 3",
+        "description": "",
+        "preview": "img/use-case-diagram.png"
     },
-        {
+    {
         "id": 4,
-        "title": "Лаботраторная работа №4",
-        "description": "Реализация приложения на Angular 7, разработка UML Component",
-        "preview": "img/картинка.PNG"
+        "title": "Лабораторная работа 4",
+        "description": "",
+        "preview": "img/use-case-diagram.png"
     },
-        {
+    {
         "id": 5,
-        "title": "Лаботраторная работа №5",
-        "description": "Разработка алгоритма и описания процедуры в выбранном проекте",
-        "preview": "img/картинка.PNG"
+        "title": "Лабораторная работа 5",
+        "description": "",
+        "preview": "img/use-case-diagram.png"
     },
-        {
+    {
         "id": 6,
-        "title": "Лаботраторная работа №6",
-        "description": "Разработка процедуры на JS в выбранном проекте",
-        "preview": "img/картинка.PNG"
+        "title": "Лабораторная работа 6",
+        "description": "",
+        "preview": "img/use-case-diagram.png"
     },
-        {
+    {
         "id": 7,
-        "title": "Лаботраторная работа №7",
-        "description": "Разработка unit-теста процедуры в выбранном проекте",
-        "preview": "img/картинка.PNG"
+        "title": "Лабораторная работа 7",
+        "description": "",
+        "preview": "img/use-case-diagram.png"
     }
 ]
